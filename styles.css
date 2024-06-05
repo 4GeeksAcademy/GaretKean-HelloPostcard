@@ -56,3 +56,9 @@ p{
     padding-left: 10px;
     padding-right: 10px;
 }
+.top-margin{
+    margin-top: -5%;
+}
+.bot-margin{
+    margin-bottom: -5%;
+}
