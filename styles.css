@@ -3,7 +3,7 @@ body{
     padding-top: 20px;
 }
 div{
-    border: 0px solid #000000;
+    border: 0px solid #000000; /*All div have a 1px border to help visually*/
     overflow: auto;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -15,13 +15,13 @@ table{
 }
 td{
     padding: 5px;
-    border:0px solid #000000;
+    border:0px solid #000000; /*All tables have 1 1px border to help visually*/
 }
 .white{
-    background: #ffffff;
+    background: #ffffff;/*This class was made here before it was used in html to cover all background white attributes*/
 }
 .half{
-    width:50%;
+    width:50%;/*This class was made here to get the width of anything to 50%*/
 }
 .center{
     margin-left: auto;
@@ -48,7 +48,7 @@ td{
     font-weight: 700;
     font-style: italic;
   }
-i{
+i{/*all icons use this class to make them bigger*/
     height:fit-content;
     font-size: xx-large;
 }
@@ -56,6 +56,7 @@ p{
     padding-left: 10px;
     padding-right: 10px;
 }
+/*These last 2 classes were just touch-ups to the spacing*/
 .top-margin{
     margin-top: -5%;
 }
